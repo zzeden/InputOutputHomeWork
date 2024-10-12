@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.Remoting.Channels;
 
 namespace ConsoleApp1
 {
@@ -38,7 +39,15 @@ namespace ConsoleApp1
             Console.WriteLine("the price of falafel and drink together is " + total);
 
             //4.
-
+            Console.WriteLine("please insert the price of shirt");
+            s = Console.ReadLine();
+            int shirt = int.Parse(s);
+            Console.WriteLine("please insert the number of shirts");
+            s = Console.ReadLine();
+            int num = int.Parse(s);
+            int tosefet = 2;
+            int price = num * (tosefet + shirt);
+            Console.WriteLine("the total price of shirts with labels will be " + price);
 
 
 
