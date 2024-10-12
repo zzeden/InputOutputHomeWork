@@ -49,6 +49,23 @@ namespace ConsoleApp1
             int price = num * (tosefet + shirt);
             Console.WriteLine("the total price of shirts with labels will be " + price);
 
+            //5.
+            //1,4 or 2,3 
+
+            //6.
+            //      a    b    c
+            //1.    1    2    0
+            //2.    6    2    0
+            //3.    6    24   0
+            //4.    6
+            //5.   24
+            //6.    0
+            
+
+
+
+
+
 
 
         }
