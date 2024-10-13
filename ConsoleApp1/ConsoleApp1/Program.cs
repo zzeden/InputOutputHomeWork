@@ -60,14 +60,37 @@ namespace ConsoleApp1
             //4.    6
             //5.   24
             //6.    0
-            
+
+            //7.
+            int a = 3;
+            int b = 4;
+            int c = b;
+            Console.WriteLine("before algo " + a + " " + b);
+            b = a;
+            a = c;
+            Console.WriteLine("after algo " + a + " " + b);
+
+            //8.
+            Console.WriteLine("please insert a two digit number");
+            s = Console.ReadLine();
+            num = int.Parse(s);
+            int tens = num / 10;
+            int units = num % 10;
+
+            Console.WriteLine(10 * units + tens);
 
 
+            //9.
+            Console.WriteLine("please insert a three digit number");
+            num = int.Parse(Console.ReadLine());
+            int hundreds = num / 100;
+            tens = num / 10;
+            tens = tens % 10;
+            units = num % 10;
 
+            Console.WriteLine(100 * units + 10 * tens + hundreds);
 
-
-
-
+            //error
         }
 
     }
